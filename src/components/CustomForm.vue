@@ -83,7 +83,7 @@ const clickMe = () => {
           type="submit"
           :disabled="disabled"
           variant="outlined"
-          color="primary"
+          :color="disabled ? null : 'primary'"
           text
           icon="i-mdi:lightning-bolt"
       >

@@ -20,15 +20,13 @@
           d="M102.278 167.444C102.278 195.058 79.8922 217.444 52.278 217.444V217.444C24.6637 217.444 2.27796 195.058 2.27796 167.444L2.27796 122.444C2.27796 119.682 4.51654 117.444 7.27796 117.444L97.278 117.444C100.039 117.444 102.278 119.682 102.278 122.444L102.278 167.444Z"
           fill="#888" />
     </svg>
-    <span class="i-icon-park-plus-cross" />
-    <span class="i-mdi:lightning-bolt" title="fast" />
   </header>
 </template>
 
 <style lang="scss" scoped>
 header {
   display: grid;
-  grid-template-columns: repeat(11, min-content);
+  grid-template-columns: repeat(9, min-content);
   grid-column-gap: 0.5rem;
   justify-content: center;
   svg, span {

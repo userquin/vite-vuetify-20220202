@@ -85,6 +85,7 @@ const clickMe = () => {
           variant="outlined"
           color="primary"
           text
+          icon="i-mdi:lightning-bolt"
       >
         Say hello
       </v-btn>

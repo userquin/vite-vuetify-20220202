@@ -34,7 +34,7 @@ const clickMe = () => {
           append-inner-icon="i-mdi:lightning-bolt"
           @click:append-inner="clickMe"
       ></v-text-field>
-      <v-text-field
+<!--      <v-text-field
           label="What's your name?"
           v-model="name2"
           append-inner-icon="i-mdi:lightning-bolt"
@@ -78,7 +78,7 @@ const clickMe = () => {
           label="What's your name?"
           v-model="name10"
           append-inner-icon="i-mdi:lightning-bolt"
-      ></v-text-field>
+      ></v-text-field>-->
       <v-btn
           type="submit"
           :disabled="disabled"

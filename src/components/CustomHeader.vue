@@ -34,9 +34,6 @@ header {
     &:nth-child(odd) {
       font-size: 2em;
     }
-    &:last-of-type {
-      color: rgb(0, 120, 207);
-    }
   }
 }
 </style>
